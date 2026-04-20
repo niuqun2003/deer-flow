@@ -34,7 +34,8 @@ markers = [
 ]
 
 [tool.uv.workspace]
-members = ["packages/harness"]
+members = ["packages/harness", "packages/storage"]
 
 [tool.uv.sources]
 deerflow-harness = { workspace = true }
+deerflow-storage = { workspace = true }
